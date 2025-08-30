@@ -1,0 +1,72 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css');
+
+.dashboard-container {
+  background: #00254a;
+  min-height: 100vh;
+  border-radius: 30px;
+}
+
+.card {
+  border-radius: 15px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+.card1{
+  background-color: #0384f4 !important;
+}
+.card2{
+  background-color: #b31301 !important;
+}
+.card3{
+  background-color: #0384f4 !important;
+}
+.card4{
+  background-color: #b31301 !important;
+}
+.card5{
+  background-color: #0384f4 !important;
+}
+.card6{
+  background-color: #b31301 !important;
+}
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-body {
+  padding: 2rem;
+}
+
+.scrollable {
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.review-item, .booking-item {
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #f8f9fa;
+  transition: all 0.3s ease;
+}
+
+.review-item:hover, .booking-item:hover {
+  background-color: #e9ecef;
+}
+
+/* Custom scrollbar */
+.scrollable::-webkit-scrollbar {
+  width: 8px;
+}
+
+.scrollable::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.scrollable::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+
+.scrollable::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

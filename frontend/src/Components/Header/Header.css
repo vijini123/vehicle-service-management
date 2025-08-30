@@ -1,0 +1,66 @@
+.header {
+    background: linear-gradient(to right, #0078c9, #00a8e8);
+    transition: all 0.3s ease;
+  }
+  .navbar-brand.company {
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+  }
+  
+  .navbar-brand.company:hover {
+    transform: scale(1.05);
+  }
+  .nav-link {
+    color: #ffffff !important;
+    font-weight: 500;
+    position: relative;
+    transition: all 0.3s ease;
+  }
+  
+  .nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #ffffff;
+    transition: width 0.3s ease;
+  }
+  
+  .nav-link:hover::after,
+  .nav-link.active::after {
+    width: 100%;
+  }
+  .dropdown-menu {
+    background-color: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(10px);
+    border: none;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dropdown-item {
+    transition: all 0.2s ease;
+  }
+  
+  .dropdown-item:hover {
+    background-color: rgba(0, 120, 201, 0.1);
+    transform: translateX(5px);
+  }
+  .header.sticky-top {
+    background: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header.sticky-top .navbar-brand.company,
+  .header.sticky-top .nav-link {
+    color: #0078c9 !important;
+  }
+  
+  .header.sticky-top .nav-link::after {
+    background-color: #0078c9;
+  }
+  

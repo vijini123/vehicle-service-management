@@ -1,0 +1,77 @@
+.employee-profile-container {
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    min-height: 100vh;
+    padding: 2rem 0;
+  }
+  
+  .employee-profile-card {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: all 0.3s ease;
+  }
+  
+  .employee-profile-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+  }
+  
+  .card-body {
+    padding: 2rem;
+  }
+  
+  .profile-icon {
+    font-size: 3rem;
+    color: #4a90e2;
+    margin-bottom: 1rem;
+  }
+  
+  .employee-info {
+    background: #f8f9fa;
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .info-icon, .form-icon {
+    margin-right: 0.5rem;
+    color: #4a90e2;
+  }
+  
+  .form-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  .form-control {
+    border-radius: 20px;
+    border: 2px solid #e0e0e0;
+    padding: 0.75rem 1rem;
+    transition: all 0.3s ease;
+  }
+  
+  .form-control:focus {
+    border-color: #4a90e2;
+    box-shadow: 0 0 0 0.2rem rgba(74, 144, 226, 0.25);
+  }
+  
+  .btn-primary:hover {
+    background-color: #3a7bc8;
+    border-color: #3a7bc8;
+  }
+  
+  .btn-info {
+    background-color: #5bc0de;
+    border-color: #5bc0de;
+  }
+  
+  .logout-btn {
+    margin-top: 1rem;
+  }
+  
+  @media (max-width: 768px) {
+    .card-body {
+      padding: 1.5rem;
+    }
+  }
+  

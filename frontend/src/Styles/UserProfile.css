@@ -1,0 +1,65 @@
+.user-profile-container {
+    background-color: #a7ccf1;
+    padding: 2rem 0;
+  }
+  
+  .sidebarr {
+    background-color: #235f8a;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+  }
+  .user-profile-heading {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #2c3e50;
+    background-color: #ecf0f1;
+    border-left: 4px solid #3498db;
+    border-radius: 0 8px 8px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1.5rem;
+    transition: all 0.3s ease;
+  }
+  
+  .user-profile-heading:hover {
+    border-left: 4px solid #ffff;
+    transform: translateX(5px);
+    background-color: #3498db;
+    color: #ffffff !important;
+  }
+  
+  .sidebarr h5, h3{
+    color: #333 !important;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+  }
+  
+  .nav-pills .nav-link {
+    color: #555;
+    transition: all 0.3s ease;
+  }
+  
+  .nav-pills .nav-link:hover,
+  .nav-pills .nav-link.active {
+    background-color: #007bff;
+    color: #ffffff;
+  }
+  
+  .nav-pills .nav-link i {
+    font-size: 1.2rem;
+  }
+  
+  .tab-contents {
+    background-color: #ffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    min-height: 500px;
+  }
+  
+  @media (max-width: 768px) {
+    .sidebar {
+      margin-bottom: 1.5rem;
+    }
+  }
+  
